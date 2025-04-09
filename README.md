@@ -28,7 +28,9 @@ Create a draggable, animated **dock** that mimics the behavior of the macOS dock
 
 ## 🧠 Implementation Highlights
 
-- Uses `LongPressDraggable`, `DragTarget`, and `AnimatedScale` for interactive and animated drag-and-drop.
+- Uses `Draggable`, `DragTarget`, and `AnimatedScale` for interactive and animated drag-and-drop.
 - The dock is constructed using a `Row` and dynamically rearranges buttons when they’re moved.
+- The element will be bigger when the mouse Hover over it
+- the element create space for every draggable element onwillAccept
 
 ---
