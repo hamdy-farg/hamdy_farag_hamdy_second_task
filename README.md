@@ -1,16 +1,34 @@
-# hamdy_farag_hamdy_task_two
+# 🖥️ Movable Dock - Flutter Assignment
 
-A new Flutter project.
+## 🎯 Objective
+Create a draggable, animated **dock** that mimics the behavior of the macOS dock. Buttons in the dock should respond with scaling and animation when hovered or dragged.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 📋 Requirements
 
-A few resources to get you started if this is your first Flutter project:
+- ✅ Build a horizontal dock containing multiple icons.
+- ✅ Enable **dragging** icons left or right within the dock.
+- ✅ Add **scaling animation** when dragging or hovering over an icon.
+- ✅ Smooth and polished UI behavior.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📹 Reference Video
+
+📼 [Watch Demonstration Video](https://drive.google.com/file/d/1VJYh_0_9B1LGFqQOWlumSgjirrrRSdzJ/view?usp=drivesdk)
+
+---
+
+## 🚀 Base Code Demo
+
+👉 [Try it on DartPad](https://dartpad.dev/?id=45fa197194bbdfbc4eb65ca5e70733f6)
+
+---
+
+## 🧠 Implementation Highlights
+
+- Uses `LongPressDraggable`, `DragTarget`, and `AnimatedScale` for interactive and animated drag-and-drop.
+- The dock is constructed using a `Row` and dynamically rearranges buttons when they’re moved.
+
+---
